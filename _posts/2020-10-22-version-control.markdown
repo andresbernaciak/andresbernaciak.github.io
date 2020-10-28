@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is version control?"
-date:   2020-10-21 21:03:36 +0530
+date:   2020-10-22 21:03:36 +0530
 categories: git
 ---
 
