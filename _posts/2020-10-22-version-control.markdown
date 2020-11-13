@@ -7,13 +7,13 @@ categories: git
 
 ## Definition
 In simple terms, version control is a methodology used to track changes in a file. For those who have used the "track changes" button in MS Word, this might seem familiar, though version control systems (VCS) have added functionalities including the ability to handle multiple users editing the same file simulatenously, which is something very common in this time and age.
-Git is one of the version control systems out there, and it is usually used in conjunction with GitHub with is a cloud-based hosting service that lets you manage Git repositories (think folders within your google drive).
+'Git' is one of the version control systems out there, and it is usually used in conjunction with GitHub with is a cloud-based hosting service that lets you manage Git repositories (think folders to save your projects that sync up to your google drive).
 
 ## How does version control systems work
-There are a ton of tutorials online to that will a much better job than I can at teaching you about stagging, commits, checkouts, push, forks, branches and so on.  Here's a short list of some I found useful:
+There are a ton of tutorials online that will do a much better job than I can at teaching you about stagging, commits, checkouts, push, forks, branches and so on.  Here's a short list of some I found useful:
 
-[Github Tutorial For Begginers](https://youtu.be/0fKg7e37bQE)
-[Arch Wiki: Git](https://wiki.archlinux.org/index.php/git)
+* [Github Tutorial For Begginers](https://youtu.be/0fKg7e37bQE)
+* [Arch Wiki: Git](https://wiki.archlinux.org/index.php/git)
 
 
 ## Installation and usage
