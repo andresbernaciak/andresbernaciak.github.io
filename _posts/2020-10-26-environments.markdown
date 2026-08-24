@@ -5,6 +5,9 @@ date:   2020-10-26 21:03:36 +0530
 categories: pipenv, venv, conda
 ---
 
+Archive note: Originally published in 2020 while I was teaching myself data science and software development. Preserved here as part of the site archive.
+
+
 ## Definition
 A virtual environment is an isolated container for Python projects. Think of them as folders where you can install a version of the Python interpreter, libraries, and their dependencies that are isolated from other folders (virtual environments) including those installed as part of your core operating system.
 

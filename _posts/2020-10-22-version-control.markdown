@@ -5,6 +5,9 @@ date:   2020-10-22 21:03:36 +0530
 categories: git
 ---
 
+Archive note: Originally published in 2020 while I was teaching myself data science and software development. Preserved here as part of the site archive.
+
+
 ## Definition
 In simple terms, version control is a methodology used to track changes in a file. For those who have used the "track changes" button in MS Word, this might seem familiar, though version control systems (VCS) have added functionalities including the ability to handle multiple users editing the same file simulatenously, which is something very common in this time and age.
 'Git' is one of the version control systems out there, and it is usually used in conjunction with GitHub with is a cloud-based hosting service that lets you manage Git repositories (think folders to save your projects that sync up to your google drive).
