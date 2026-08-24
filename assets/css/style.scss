@@ -12,17 +12,21 @@
   @import "dark";
 {%- endif -%}
 
-/* Allow sidebar scrolling on shorter desktop screens */
-.about {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  justify-content: flex-start;
-  padding-top: 32px;
-  box-sizing: border-box;
+/* Fix sidebar on shorter desktop screens */
+section.about {
+  height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  justify-content: flex-start !important;
+  padding-top: 32px !important;
+  box-sizing: border-box !important;
+
+  /* keep scrolling, hide scrollbar */
   scrollbar-width: none;
 }
 
-.about::-webkit-scrollbar {
+section.about::-webkit-scrollbar {
+  width: 0;
+  height: 0;
   display: none;
 }
