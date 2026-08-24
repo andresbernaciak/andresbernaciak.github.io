@@ -1,4 +1,10 @@
-# Building a Family AI Chief of Staff: Starting with the Inbox
+---
+layout: post
+title: "Building a Family AI Chief of Staff: Starting with the Inbox"
+date: 2026-08-24
+categories: [ai, build-journal]
+---
+
 
 Household coordination is a surprisingly messy operating problem.
 
