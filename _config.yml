@@ -6,10 +6,10 @@ description: > # this means to ignore newlines until "show_exerpts:"
   can solve real operating problems and create measurable business value
 show_excerpts: true # set to true to show excerpts on the homepage
 
-header_pages:
-  - projects.md
-  - writing.md
-  - about.md
+#header_pages:
+#  - projects.md
+#  - writing.md
+#  - about.md
 
 plainwhite:
   name: "Andres Bernaciak"
@@ -18,10 +18,8 @@ plainwhite:
   navigation:
   - title: Home
     url: "/"
-  - title: Projects
-    url: "/projects/"
-  - title: Writing
-    url: "/writing/"
+  - title: Posts
+    url: "/posts/"
   - title: About
     url: "/about/"
 
