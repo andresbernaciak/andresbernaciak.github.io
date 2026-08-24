@@ -18,7 +18,7 @@ With three kids and two parents, school emails, sports schedules, deadlines, act
 
 I’m experimenting with whether an AI-enabled workflow can turn that fragmented information into a more reliable household operating system.
 
-[View the project](/projects/) · [Read the build journal](/writing/)
+[Read the build journal](/posts/)
 
 ## What I’m exploring
 
