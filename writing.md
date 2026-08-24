@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: page
 title: Writing
@@ -7,15 +6,34 @@ permalink: /writing/
 
 # Writing
 
-Notes on AI-enabled value creation, operating models, agents, automation, and what I learn while building.
+Notes on applied AI, value creation, operating problems, and what I learn while building.
 
-For now, most of my current thinking is being documented through project pages and build notes. Longer-form pieces will live here when there is something worth writing up.
+## Current
+
+{% for post in site.posts %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% unless post_year == "2020" %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+*{{ post.date | date: "%B %-d, %Y" }}*
+
+{{ post.excerpt | strip_html | truncatewords: 35 }}
+
+  {% endunless %}
+{% endfor %}
 
 ## Archive: Data Science Journey, 2020
 
-In 2020, I started teaching myself Python, data science, and software-development fundamentals. I’m keeping these posts as a record of that earlier technical exploration.
+These posts were originally published in 2020 while I was teaching myself data science and software development. I've kept them as part of the site's history and as a record of an earlier stage in my technical learning.
 
-- [Getting started]({% post_url 2020-10-21-getting-started %})
-- [What is version control?]({% post_url 2020-10-22-version-control %})
-- [What are virtual environments?]({% post_url 2020-10-26-environments %})
-```
+{% for post in site.posts %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year == "2020" %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+*{{ post.date | date: "%B %-d, %Y" }}*
+
+{{ post.excerpt | strip_html | truncatewords: 35 }}
+
+  {% endif %}
+{% endfor %}
