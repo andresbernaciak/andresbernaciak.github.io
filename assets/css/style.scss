@@ -1,0 +1,18 @@
+---
+---
+
+@import "plainwhite";
+
+.about {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  padding-top: 32px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
+}
