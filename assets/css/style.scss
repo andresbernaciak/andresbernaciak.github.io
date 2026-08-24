@@ -1,0 +1,28 @@
+---
+---
+
+@import "plain";
+
+{% if site.plainwhite.search %}
+  @import "search";
+{% endif %}
+
+{%- if site.plainwhite.dark_mode -%}
+  @import "toggle";
+  @import "dark";
+{%- endif -%}
+
+/* Allow sidebar scrolling on shorter desktop screens */
+.about {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  padding-top: 32px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
+}
